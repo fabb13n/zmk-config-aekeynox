@@ -71,7 +71,7 @@
       display-name = "1dkShift";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
         &trans  ,  SC_AE   SC_EACU SC_EGRV SC_OCRC &trans   ,   &trans  SC_UGRV SC_IDIA SC_OE   &trans  ,  &trans ,
-        &trans  ,  SC_AGRV C_SZ    SC_ECRC C_FEM   &trans   ,   &trans  SC_UCRC SC_ICRC SC_OCRC C_LCXE  ,  &trans ,
+        &trans  ,  CP1252_UPPERCASE_A_GRAVE C_SZ    SC_ECRC C_FEM   &trans   ,   &trans  SC_UCRC SC_ICRC SC_OCRC C_LCXE  ,  &trans ,
         &trans  ,  SC_ACRC &trans  SC_CCDL &trans  &trans   ,   SC_NTLD C_MASC  C_BLLT  &trans  C_KRAMQ ,  &trans ,
                                  &trans , &trans , &trans   ,   &trans , &trans , &trans
       )>;

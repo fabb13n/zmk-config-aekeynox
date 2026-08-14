@@ -60,9 +60,9 @@
     symbols_layer: symbols_layer {
       display-name = "Symbols";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  S_CARET S_LT    S_GT    S_DLLR  S_PRCNT   ,   S_AT    S_AMPS  S_STAR  S_SQT   S_GRAVE  ,  &trans ,
+        &trans  ,  S_CARET S_AT    S_HASH  S_DLLR  S_PRCNT   ,   S_GT    S_AMPS  S_STAR  S_SQT   S_GRAVE  ,  &trans ,
         &trans  ,  S_LBRC  S_LPAR  S_RPAR  S_RBRC  S_EQUAL   ,   S_BSLH  S_PLUS  S_MINUS S_FSLH  S_DQT    ,  &trans ,
-        &trans  ,  S_TILDE S_LBKT  S_RBKT  S_UNDER S_HASH    ,   S_PIPE  S_EXCL  S_SEMI  S_COLON S_QMARK  ,  &trans ,
+        &trans  ,  S_TILDE S_LBKT  S_RBKT  S_UNDER S_LT      ,   S_PIPE  S_EXCL  S_SEMI  S_COLON S_QMARK  ,  &trans ,
                      SYM_NUM_LAYER , &kp SPACE , &kp ENTER   ,   &trans ,  &trans ,  &trans
       )>;
     };
@@ -112,10 +112,10 @@
     fn_media_layer: fn_media_layer {
       display-name = "FnMedia";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  &kp F1  &kp F2  &kp F3  &kp F4  &none   ,   &bt BT_SEL 2  &kp C_NEXT  &kp C_VOL_UP  &kp C_BRI_UP   &kp SLCK    ,  &trans ,
-        &trans  ,  &kp F5  &kp F6  &kp F7  &kp F8  &none   ,   &bt_sel1_clr  &UH1 C_PP   &UH2 C_MUTE   &UH3 C_AL_LOCK &UH4 PSCRN  ,  &trans ,
-        &trans  ,  &kp F9  &kp F10 &kp F11 &kp F12 &none   ,   &bt BT_SEL 0  &kp C_PREV  &kp C_VOL_DN  &kp C_BRI_DN   &kp INS     ,  &trans ,
-                           &trans , &bootloader , &trans   ,   &trans , &sys_reset , &studio_unlock
+        &trans  ,  &kp F1  &kp F2  &kp F3  &kp F4  &none     ,   &bt BT_SEL 2  &kp C_NEXT  &kp C_VOL_UP  &kp C_BRI_UP   &kp SLCK      ,  &trans ,
+        &trans  ,  &kp F5  &kp F6  &kp F7  &kp F8  &none     ,   &bt_sel1_clr  H_J C_PP    H_K C_MUTE    H_L C_AL_LOCK  H_SEMI PSCRN  ,  &trans ,
+        &trans  ,  &kp F9  &kp F10 &kp F11 &kp F12 &kp ENTER ,   &bt BT_SEL 0  &kp C_PREV  &kp C_VOL_DN  &kp C_BRI_DN   &kp INS       ,  &trans ,
+                           &trans , &bootloader , &trans     ,   &trans , &sys_reset , &studio_unlock
       )>;
     };
 
